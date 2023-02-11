@@ -1,5 +1,7 @@
 # Frame-Template-Vue
 
+`frame-template-vue`（[Github](https://github.com/lqsong/frame-template-vue)、[Gitee](https://gitee.com/lqsong/frame-template-vue)） 是一个前端框架模板，它基于[Vue3.x](https://github.com/vuejs/vue-next)、[Vue-router](https://github.com/vuejs/router)、[Pinia](https://github.com/vuejs/pinia)、[Axios](https://github.com/axios/axios)、[Vite](https://github.com/vitejs/vite) 等前端前沿技术实现。因为现在大部分 Vue 开源项目，大量集成了第三方库，包括 UI 组件等，导致了不方便剥离(UI 组件)。本框架只是基于 Vue 开发了基础底层功能，方便二次开发与扩展。
+
 ## 使用文档
 
 - [http://frame-template-vue.liqingsong.cc/](http://frame-template-vue.liqingsong.cc/)
