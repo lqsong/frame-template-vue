@@ -1,0 +1,46 @@
+@import "./normalize.css";
+@import "./variables.scss";
+@import "./mixin.scss";
+html,
+body {
+	font-family: var(--ft-font-family);
+	font-size: var(--ft-font-size);
+	font-weight: var(--ft-font-weight);
+	line-height: 1.4;
+	text-size-adjust: 100%;
+	text-rendering: optimizelegibility;
+	-webkit-font-smoothing: antialiased;
+	-webkit-tap-highlight-color: transparent;
+	-moz-osx-font-smoothing: grayscale;
+}
+body {
+	width: 100%;
+	min-width: 320px;
+	min-height: 100vh;
+	color: var(--ft-text-color);
+	background-color: var(--ft-bg-color);
+}
+a {
+	font-size: var(--ft-a-font-size);
+	font-weight: var(--ft-a-font-weight);
+	color: var(--ft-a-text-color);
+	text-decoration: none;
+	cursor: pointer;
+	background-color: transparent;
+	outline: none;
+	&:active,
+	&:hover {
+		text-decoration: none;
+		outline: 0;
+	}
+	&:active {
+		color: var(--ft-a-text-color);
+	}
+	&:hover {
+		color: var(--ft-a-hover-text-color);
+	}
+	&.primary {
+		--ft-a-text-color: var(--ft-color-primary);
+		--ft-a-hover-text-color: var(--ft-text-color);
+	}
+}
